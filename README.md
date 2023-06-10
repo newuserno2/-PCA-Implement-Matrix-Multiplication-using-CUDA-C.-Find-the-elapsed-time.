@@ -514,19 +514,23 @@ sumMatrixOnGPU
 
 root@SAV-MLSystem:/home/student/exp_5# nvcc sumMatrixOnGPU.cu
 
+
 root@SAV-MLSystem:/home/student/exp_5# ./sumMatrixOnGPU
 ./sumMatrixOnGPU Starting...
 
 Using Device 0: NVIDIA GeForce GT
+
+
 710Matrix size: nx 16384 ny 16384
+
 
 Matrix initialization elapsed 6.808432 sec
 
 sumMatrixOnHost elapsed 0.555428 sec
 
-Error: sumMatrixOnGPU.cu:168, code: 2, reason: out of memory
 
-root@SAV-MLSystem:/home/student/exp_5#
+
 ##RESULT:
+
 Thus, the Matrix Multiplication using CUDA and Host has been successfully performed and found the
 Elapsed Time
